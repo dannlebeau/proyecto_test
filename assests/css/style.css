@@ -1,0 +1,38 @@
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-icons li a {
+    display: block;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #1da1f2;
+  }
